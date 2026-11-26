@@ -22,10 +22,12 @@ FreeSdr 硬件项目仓库，存放硬件原理图、PCB 文件和调试记录�
 ## 调试记录
 
 - USB3320 无法识别芯片 ID，怀疑与焊接有关
-- HDMI 尚未测试
+- HDMI 焊接焊盘脱落，已无法测试
 - MIPI 尚未测试
 - GPS 尚未测试
-- TF 卡尚未测试
+- TF 卡识别和初始化通过，CID/CSD 可读取；稳定扇区读取和 SD 启动尚未通过验证
+
+FreeSDR 软件移植和调试程序见 [FreeSdr-Software](https://github.com/AAkoi/FreeSdr-Software)。
 
 ### 测试照片
 
